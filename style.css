@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1f1fb;
+    overflow: hidden;
+}
+.container {
+    padding: .7rem;
+    position: relative;
+}
+.back {
+    background-color: #EA4C3C;
+    width: 150px;
+    height: 95vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.front {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: #fff;
+    width: 80vw;
+    height: 90vh;
+    margin: 25px 25px;
+    border-radius: 15px;
+    display: flex;
+
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e8e8fd;
+    height: 90vh;
+    width: 220px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: relative;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    padding: .75rem;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.profile-name {
+    margin-left: 10px;
+}
+.profile-name h1 {
+    font-size: 14px;
+}
+.profile-name div {
+    font-size: 11px;
+}
+.profile-menu {
+    padding: .75rem;
+}
+.span {
+    display: flex;
+    align-items:center;
+    margin-top: 10px;
+    position: relative;
+}
+.before::before {
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 4px;
+    background-color: #EA4C3C;
+    border-radius: 20px;
+    left: 0;
+}
+.iconify {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+.logout {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 30px;
+    left: -1;
+}
+
+.billing-section {
+    flex: 1;
+    padding-left: 1rem;
+    margin-top: 15px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.billing-section h1 {
+    padding: .6rem;
+    /* padding-top: 10px; */
+    margin: 0;
+}
+.order {
+    margin-top: 10px;
+    padding: .6rem;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: .6rem;
+}
+
+.biling-details {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: .6rem;
+}
+.biling-details button {
+
+    border: 1px solid #f1f1fb;
+    padding: .4rem;
+    background: transparent;
+    border-radius: 10px;
+
+}
+.biling-details:nth-child(2)  {
+    box-shadow: 2px 2px 2px 0px rgba(197, 190, 190, 0.75);
+    background-color: #fff;
+}
+.learn-more {
+    color: #EA4C3C;
+    padding: .6rem;
+    margin-top: 5px;
+}
+
+.payment {
+    margin-top: 20px;
+    padding: 1rem;
+    width: 500px;
+}
+.card {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.card .btn {
+    padding: .5rem;
+    border: 1px solid #f1f1fb;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.billing-plan {
+    background-color: #EA4C3C;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    right: 80px;
+}
+.billing-plan h4 {
+    font-size: 14px;
+}
+.billing-plan p {
+    font-size: 12px;
+}
+.billing-plan button {
+    background-color: #EA4C3C;
+    padding: .5rem;
+    border: 1px solid #f1f1fb;
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: #fff;
+}
